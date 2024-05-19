@@ -8,4 +8,4 @@ class Room(ABC):
 
     @abstractmethod
     def __str__(self):
-        return f"Roomnumber : {self.room_number}, Price is: {self.price}$"
+        return f"Roomnumber : {self.room_number}, Price for one night: {self.price}$"
